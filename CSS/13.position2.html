@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 900px;
+            width: 80%;
+            border: solid 2px black;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .circle {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: red;
+            position: absolute;
+            top: -60px;
+            right: -60px;
+        }
+
+        .circle-1 {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: green;
+            position: absolute;
+            top: -60px;
+            left: -60px;
+        }
+       
+
+        .circle-2 {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: yellow;
+            position: absolute;
+            bottom: -60px;
+            left: -60px;
+        }
+
+
+        .box-1 {
+            height: 200px;
+            width: 200px;
+            background-color: chartreuse;
+            position: absolute;
+            top: 40%;
+            right: 45%;
+            z-index: 1;
+        }
+
+        .box-2 {
+            height: 200px;
+            width: 200px;
+            background-color: orange;
+            position: absolute;
+            top: 55%;
+            right: 40%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+         <div class="circle"></div>
+         <div class="circle-1"></div>
+         <div class="circle-2"></div>
+         <div class="box-1"></div>
+         <div class="box-2"></div>
+    </div>
+</body>
+</html>
